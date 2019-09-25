@@ -1,5 +1,29 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to run Frontend?
+
+### Requisites
+
+Install [NodeJS](https://nodejs.org/en/) if you haven't yet.
+
+### Run
+
+  npm install
+
+	npm start
+
+Now the frontend is running in http://localhost:3001/
+
+## Description
+
+In this repository you find the following folders:
+- node_modules: dependencies and packages of the project
+- public: favicon, project title and manifest
+- src: the code of the application
+  - App.js: the routes of the application
+  - index.js: ApolloClient definition with your backend URL. You need put your API URL in this file, to get and modify the data
+  - pages: StudentAdd, StudentEdit and StudentList components to handle the students in the app
+
 ## Available Scripts
 
 In the project directory, you can run:
