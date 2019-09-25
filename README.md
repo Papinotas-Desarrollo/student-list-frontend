@@ -8,7 +8,7 @@ Install [NodeJS](https://nodejs.org/en/) if you haven't yet.
 
 ### Run
 
-  npm install
+  	npm install
 
 	npm start
 
